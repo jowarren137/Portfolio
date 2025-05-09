@@ -22,7 +22,7 @@ body {
     padding: 14px;
 }
 
-.darkerText {
+.alternateColor {
     color: var(--secondary-color);
 }
 
@@ -46,13 +46,14 @@ header {
 }
 
 nav {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     display: flex;
     align-items: center;
     gap: 32px;
 }
 
 nav a {
+    color: var(--primary-color);
     cursor: pointer;
     text-decoration: none;
 }
